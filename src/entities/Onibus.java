@@ -4,20 +4,13 @@ import strategy.EstrategiaDeCalculo;
 
 public class Onibus implements EstrategiaDeCalculo{
 
-	private final double disOnibus = 32.0;
-
 	
 	@Override
-	public double CalculoRota(double metros) {
-		return metros * disOnibus;
+	public void CalculoRota() {
+		System.out.println("Calculando a rota de Onibus…");
 	}
 
-	@Override
-	public String toString() {
-		return "Onibus\n";
-	}
-	
-	
+
 
 	
 	

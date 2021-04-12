@@ -3,20 +3,13 @@ package entities;
 import strategy.EstrategiaDeCalculo;
 
 public class Carro implements EstrategiaDeCalculo{
-
-	private final double disCarro = 20.0;
-
 	
 	@Override
-	public double CalculoRota(double metros) {
-		return metros * disCarro;
+	public void CalculoRota() {
+		System.out.println("Calculando a rota de Carro…");
 	}
 
-	@Override
-	public String toString() {
-		return "Carro\n";
-	}
-
+	
 	
 	
 	

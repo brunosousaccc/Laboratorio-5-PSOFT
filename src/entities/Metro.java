@@ -3,20 +3,14 @@ package entities;
 import strategy.EstrategiaDeCalculo;
 
 public class Metro implements EstrategiaDeCalculo {
-
-	private final double DISMETRO = 17.0;
 	
-	
-	
+		
 	@Override
-	public double CalculoRota(double metros) {
-		return metros * DISMETRO;
+	public void CalculoRota() {
+		System.out.println("Calculando a rota de Metro…");;
 	}
 
-	@Override
-	public String toString() {
-		return "Metro\n";
-	}
+
 
 	
 	

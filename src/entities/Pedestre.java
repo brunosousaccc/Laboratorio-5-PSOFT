@@ -4,18 +4,13 @@ import strategy.EstrategiaDeCalculo;
 
 public class Pedestre implements EstrategiaDeCalculo{
 
-	private final double disPedestre = 45.0;
 	
 	
 	@Override
-	public double CalculoRota(double metros) {
-		return metros * disPedestre;
+	public void CalculoRota() {
+		System.out.println("Calculando a rota de Pedestre…");
 	}
 
-	@Override
-	public String toString() {
-		return "Pedestre\n";
-	}
 
 	
 	
